@@ -30,21 +30,37 @@ h1 {
     margin: 0 auto;
 }
 
+.icon:hover {
+    width: 110px;
+    height: 110px;
+}
 .grid {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 33% 33% 33%;
     height: 400px;
     width: 90%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
-.box {
+/* .box {
     border: 1px solid blue;
-}
+} */
 
 #banner {
-    margin-top: 100px;
+    padding-top: 20px;
     font-size: 12px;
+}
 
+.sub {
+    text-align: center;
+    font-size: 10px;
+}
+
+#time {
+    margin-left: 30px;
+}
+
+#signal {
+    margin-left: 168px;
 }
